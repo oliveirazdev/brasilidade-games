@@ -537,9 +537,11 @@ footer p:first-child {
     justify-content: center;
 }
 footer p:last-child {
-    color: #4b5563;
-    font-size: 1.175rem;
+    color: #6e7988;
+    font-size: 1.375rem;
     margin-top: 0.5rem;
+    font-weight: 600;
+
 }
 
 .iconFooter{
