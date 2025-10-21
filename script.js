@@ -1,4 +1,4 @@
-        // Script para revelar elementos ao rolar a página
+        // scroll
         const revealElements = document.querySelectorAll('.anim-entrada');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -9,7 +9,7 @@
         }, { threshold: 0.1 });
         revealElements.forEach(el => observer.observe(el));
 
-        // Script para o Carrossel
+        // carousel
         document.addEventListener('DOMContentLoaded', () => {
             const carousel = document.querySelector('#award-carousel');
             if (carousel) {
