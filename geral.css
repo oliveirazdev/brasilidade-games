@@ -39,8 +39,13 @@ body {
 /* Animações e Estilos de Seção Originais */
 .fundo-hero-gradiente {
     background: linear-gradient(-45deg, #1b022c, #2c0b47, #4f177a, #3d0f6a);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(-45deg, #1b022c, #472d0b, #7a4c17, #6a380f);
+    background-size: 100% 100%;
+    /* animation: gradient 15s ease infinite; */
+    background-image: url(./imgs/back1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
 }
 
 @keyframes gradient {
@@ -254,18 +259,26 @@ section {
     background-color: #fbbf24;
     color: #1f2937;
     font-weight: 700;
-    padding: 0.75rem 2rem;
+    padding: 0.85rem 4rem;
     border-radius: 0.5rem;
-    font-size: 1.125rem;
+    font-size: 1.325rem;
     text-transform: uppercase;
     box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),
                 0 4px 6px -2px rgba(0,0,0,0.05);
     transition: transform 0.2s, background-color 0.2s;
+    text-decoration: none;
 }
 
 .hero-btn:hover {
     background-color: #fde047;
     transform: scale(1.05);
+}
+
+.iconHero{
+    width: 300px;
+    border-radius: 0px;
+    mix-blend-mode: multiply;
+    filter: drop-shadow(0px 0px 10px rgba(255, 219, 15, 0.671));
 }
 
 /* Seções de Conteúdo */
